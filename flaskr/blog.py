@@ -91,6 +91,6 @@ def get_post(id, check_author=True):
         abort(404, "Post id {0} doesn't exist.".format(id))
 
     if check_author and post['author_id'] != g.user['id']:
-        absort(403)
+        abort(403)
 
     return post
