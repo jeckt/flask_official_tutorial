@@ -7,3 +7,5 @@ instance/*
 *.egg-info/
 .coverage
 htmlcov/
+build/
+dist/
